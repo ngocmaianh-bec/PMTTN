@@ -42,6 +42,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.colMaMonThi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenMonThi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.grbThongTinMonThi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +62,7 @@
             // 
             this.grbThongTinMonThi.Controls.Add(this.btnTimKiem);
             this.grbThongTinMonThi.Controls.Add(this.txtTimKiem);
+            this.grbThongTinMonThi.Controls.Add(this.button1);
             this.grbThongTinMonThi.Controls.Add(this.btnXoa);
             this.grbThongTinMonThi.Controls.Add(this.btnSua);
             this.grbThongTinMonThi.Controls.Add(this.btnThem);
@@ -187,6 +189,16 @@
             this.colTenMonThi.Name = "colTenMonThi";
             this.colTenMonThi.ReadOnly = true;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Location = new System.Drawing.Point(590, 96);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 32);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Xóa";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // FrmManageSubject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -221,5 +233,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaMonThi;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenMonThi;
+        private System.Windows.Forms.Button button1;
     }
 }
